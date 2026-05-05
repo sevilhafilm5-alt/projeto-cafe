@@ -450,79 +450,6 @@
     }
     .tl-content p { font-size: 15.5px; color: var(--cream-45); line-height: 1.75; }
 
-    /* ══════════ INVESTIMENTO ══════════ */
-    #investimento { background: var(--bg-section); }
-
-    .anchor-row {
-      display: flex; align-items: center; gap: 24px;
-      padding: 20px 28px; margin-bottom: 28px;
-      background: rgba(255,255,255,0.025);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 12px;
-    }
-    .anchor-row .anchor-label {
-      font-size: 12px; color: var(--cream-25); letter-spacing: 1px; flex: 1;
-    }
-    .anchor-row .anchor-val {
-      font-family: 'Playfair Display', serif;
-      font-size: 26px; color: rgba(248,243,236,0.2);
-      text-decoration: line-through;
-      text-decoration-color: rgba(196,146,42,0.4);
-    }
-
-    .price-hero {
-      padding: 52px 44px;
-      text-align: center;
-      background: linear-gradient(160deg, rgba(196,146,42,0.13), rgba(196,146,42,0.04));
-      border-color: rgba(196,146,42,0.35);
-      margin-bottom: 20px;
-    }
-    .price-hero .ph-label {
-      font-size: 11px; letter-spacing: 3px; text-transform: uppercase;
-      color: var(--cream-45); margin-bottom: 12px;
-    }
-    .price-hero .ph-val {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(52px, 8vw, 72px);
-      color: var(--cream); font-weight: 700; line-height: 1;
-    }
-    .price-hero .ph-val sup {
-      font-size: 28px; vertical-align: super; color: var(--gold);
-    }
-    .price-hero .ph-install {
-      margin-top: 14px; font-size: 16px; color: var(--cream-70);
-    }
-    .price-hero .ph-install strong { color: var(--gold); }
-    .price-alt {
-      text-align: center; font-size: 15px; color: var(--cream-45);
-      margin-bottom: 48px;
-    }
-    .price-alt strong { color: var(--cream-70); }
-
-    .prazos-grid {
-      display: grid; grid-template-columns: repeat(4, 1fr);
-      gap: 14px; margin-top: 48px;
-    }
-    @media (max-width: 640px) { .prazos-grid { grid-template-columns: repeat(2,1fr); } }
-    .prazo-card {
-      padding: 24px 16px; text-align: center;
-    }
-    .prazo-dias {
-      font-family: 'Playfair Display', serif;
-      font-size: 40px; color: var(--gold); font-weight: 700; line-height: 1;
-    }
-    .prazo-unit {
-      font-size: 11px; letter-spacing: 1.5px; color: var(--gold-dim);
-      text-transform: uppercase; margin-top: 2px;
-    }
-    .prazo-desc {
-      font-size: 12.5px; color: var(--cream-25);
-      margin-top: 10px; line-height: 1.5;
-    }
-
-    /* counter animation */
-    .count-num { display: inline-block; }
-
     /* ══════════ CTA ══════════ */
     #cta {
       background: var(--bg-mid);
@@ -565,7 +492,6 @@
     <li><a href="#ecossistema">Ecossistema</a></li>
     <li><a href="#hub">Plataforma</a></li>
     <li><a href="#estrategia">Distribuição</a></li>
-    <li><a href="#investimento">Investimento</a></li>
   </ul>
 </nav>
 
@@ -838,65 +764,6 @@
         <div class="tl-content">
           <h3>Você no Centro. Sem o Peso do Operacional.</h3>
           <p>Sua energia vai para o que realmente importa: criar, aparecer e liderar. Nós cuidamos de tudo que está por trás para que isso funcione continuamente.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ════════════════════════ INVESTIMENTO ════════════════════════ -->
-<section id="investimento">
-  <div class="ambient-gold" style="width:700px;height:700px;top:50%;left:50%;transform:translate(-50%,-50%);"></div>
-  <div class="container">
-    <p class="s-label reveal" style="text-align:center;">Seu Investimento</p>
-    <div class="gold-divider reveal reveal-d1" style="margin:0 auto 36px;"></div>
-    <h2 class="s-title reveal reveal-d1" style="text-align:center;">
-      O que você recebe<br/>tem <em>valor proporcional.</em>
-    </h2>
-    <p class="s-text reveal reveal-d2" style="max-width:600px; margin:0 auto 40px; text-align:center;">
-      Plataforma própria, ecossistema de áudio, Spotify, comunidade estruturada e conexão com influenciadoras — feito por especialistas. O investimento é único. O retorno, contínuo.
-    </p>
-
-    <!-- ÂNCORA -->
-    <div class="anchor-row reveal reveal-d1">
-      <span class="anchor-label">Valor de referência de mercado para este escopo</span>
-      <span class="anchor-val">R$ 38.000</span>
-    </div>
-
-    <!-- PREÇO PRINCIPAL -->
-    <div class="price-hero glass reveal reveal-d2">
-      <p class="ph-label">Seu investimento nesta proposta</p>
-      <div class="ph-val"><sup>R$</sup> <span class="count-num" data-target="22900">0</span></div>
-      <p class="ph-install">ou em até <strong>12× de R$ 2.100</strong> sem juros</p>
-    </div>
-
-    <p class="price-alt reveal reveal-d3">
-      Também disponível em <strong>6× de R$ 4.100</strong> para quem prefere um prazo mais curto.
-    </p>
-
-    <!-- PRAZOS -->
-    <div style="margin-top:16px;">
-      <p class="s-label reveal" style="text-align:center; margin-bottom:24px;">Marcos de entrega</p>
-      <div class="prazos-grid">
-        <div class="prazo-card glass reveal reveal-d1">
-          <div class="prazo-dias count-num" data-target="7">0</div>
-          <div class="prazo-unit">dias</div>
-          <div class="prazo-desc">Primeiro episódio de demonstração entregue</div>
-        </div>
-        <div class="prazo-card glass reveal reveal-d2">
-          <div class="prazo-dias count-num" data-target="21">0</div>
-          <div class="prazo-unit">dias</div>
-          <div class="prazo-desc">Plataforma própria no ar e pronta para uso</div>
-        </div>
-        <div class="prazo-card glass reveal reveal-d3">
-          <div class="prazo-dias count-num" data-target="30">0</div>
-          <div class="prazo-unit">dias</div>
-          <div class="prazo-desc">Perfil Spotify ativo com episódios publicados</div>
-        </div>
-        <div class="prazo-card glass reveal reveal-d4">
-          <div class="prazo-dias count-num" data-target="45">0</div>
-          <div class="prazo-unit">dias</div>
-          <div class="prazo-desc">Ecossistema completo funcionando de forma autônoma</div>
         </div>
       </div>
     </div>
